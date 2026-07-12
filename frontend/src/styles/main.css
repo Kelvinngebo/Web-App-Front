@@ -1,0 +1,9 @@
+body{ font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.container{ max-width: 900px; margin: 24px auto; padding: 16px; }
+header h1{ font-size: 20px; margin-bottom: 12px }
+.ad-input textarea{ width: 100%; padding: 8px; font-size: 14px }
+.ad-input .actions{ margin-top: 8px }
+.ad-input button{ padding: 8px 12px }
+.loading{ margin-top: 12px; font-style: italic }
+.result{ margin-top: 16px; padding: 12px; border: 1px solid #ddd }
+.result.error{ color: red }
