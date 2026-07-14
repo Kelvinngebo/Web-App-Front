@@ -5,5 +5,28 @@ header h1{ font-size: 20px; margin-bottom: 12px }
 .ad-input .actions{ margin-top: 8px }
 .ad-input button{ padding: 8px 12px }
 .loading{ margin-top: 12px; font-style: italic }
-.result{ margin-top: 16px; padding: 12px; border: 1px solid #ddd }
+.result{ margin-top: 16px; padding: 12px; border: 1px solid #ddd; background: #fff; border-radius: 6px }
 .result.error{ color: red }
+
+/* New styles */
+.prediction-row{ display:flex; gap: 16px; margin-top:8px }
+.features{ margin-top: 12px }
+.features ul{ list-style: none; padding-left: 0 }
+.features li{ padding:4px 0 }
+
+.risk-meter{ margin-top: 8px }
+.risk-header{ display:flex; gap:8px; align-items:center }
+.risk-level{ font-weight:700 }
+.risk-bar{ height: 12px; background: #eee; border-radius: 6px; margin-top:6px; overflow:hidden }
+.risk-fill{ height:100%; width:0%; background: #2ecc71 }
+
+.explanations{ margin-top: 12px }
+.explanations ul{ padding-left: 16px }
+
+.phone-copy{ display:inline-flex; gap:8px; align-items:center }
+.phone-copy button{ padding:4px 8px; font-size: 12px }
+
+/* Responsive */
+@media (max-width:600px){
+  .prediction-row{ flex-direction:column }
+}
